@@ -1,0 +1,42 @@
+/* geral */
+body{
+    background-color: rgb(68, 66, 66);
+}
+
+li, h1, p, h2, a{
+   color: #fff;
+   margin: 50px 2%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p, li ,a{
+    font-size: 20px
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* primeira parte */
+
+header{
+    text-align: left;
+    gap: 50px;
+    justify-content: center;
+}
+
+header image{
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+
+ /* parte de baixo */
+footer{
+     display: flex;
+     align-items: center;
+     justify-content: space-between ;
+}
